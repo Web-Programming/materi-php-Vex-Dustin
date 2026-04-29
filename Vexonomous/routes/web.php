@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 //Route ke halaman utama (home)
 Route::get('/', function () {
-    echo "hallo nama saya seven";
+    echo "hallo nama saya Vexonomous Salvatore";
     //return view('welcome');
 });
 
@@ -15,11 +15,11 @@ Route::get('/alamat', function () {
 
 //Route ke halaman alamat
 Route::get('/path1/path2/detail', function () {
-    echo "Jalan Rajawali 14. Palembang";
+    echo "Jalan apa saja";
     echo "<br>";
-    echo "Rt. 01 Rw. 02";
+    echo "--";
     echo "<br>";
-    echo "Kecamatan Alang-Alang Lebar";
+    echo "Kecamatan hehe";
     echo "<br>";
     echo "Kota Palembang";
     echo "<br>";
